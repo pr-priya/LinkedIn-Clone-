@@ -20,7 +20,7 @@ A mini LinkedIn-style social network where users can register, create a profile,
 - ✅ Responsive layout with navigation, modals, and forms
 
   ## 🚀 Getting Started
-   1. Clone the Repository- https://github.com/pr-priya/LinkedIn-Clone
+   1. Clone the Repository- https://github.com/pr-priya/LinkedIn-Clone-
    2. Install Dependencies
       - npm install
    3. Firebase Setup
