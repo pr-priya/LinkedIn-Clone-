@@ -33,6 +33,7 @@ A mini LinkedIn-style social network where users can register, create a profile,
       - Optional: Set up Firebase Hosting
     4. Add Firebase Configuration
         Create a file named firebaseConfig.js in the src folder:
+       '''js
        // src/firebaseConfig.js
          const firebaseConfig = {
            apiKey: "YOUR_API_KEY",
@@ -43,9 +44,9 @@ A mini LinkedIn-style social network where users can register, create a profile,
            appId: "YOUR_APP_ID"
 };
 export default firebaseConfig;
-   5. Run the App
+   6. Run the App
      npm start
-  6. Deploy with Firebase Hosting (Optional)
+  7. Deploy with Firebase Hosting (Optional)
      npm install -g firebase-tools
      firebase login
      firebase init hosting
