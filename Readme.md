@@ -28,14 +28,11 @@ A mini LinkedIn-style social network where users can register, create a profile,
      - Enable Authentication:
          . Email/Password
          . Google provider
-
       - Create a Firestore database (in test mode)
       - Optional: Set up Firebase Hosting
     4. Add Firebase Configuration
-        Create a file named firebaseConfig.js in the src folder:
-       '''js
-       // src/firebaseConfig.js
-         const firebaseConfig = {
+       - Create a file named firebaseConfig.js in the src folder:
+           const firebaseConfig = {
            apiKey: "YOUR_API_KEY",
            authDomain: "YOUR_AUTH_DOMAIN",
            projectId: "YOUR_PROJECT_ID",
@@ -44,18 +41,22 @@ A mini LinkedIn-style social network where users can register, create a profile,
            appId: "YOUR_APP_ID"
 };
 export default firebaseConfig;
-   6. Run the App
-     npm start
-  7. Deploy with Firebase Hosting (Optional)
-     npm install -g firebase-tools
-     firebase login
-     firebase init hosting
-     firebase deploy
-     
+
+    5. Run the App
+      - npm start
+    6. Deploy with Firebase Hosting (Optional)
+       - npm install -g firebase-tools
+       - firebase login
+       - firebase init hosting
+       - firebase deploy
+
   🧪 Demo Login (Optional)
-    - Use Google Sign-In or register using Email/Password
-
-
+     - Use Google Sign-In or register using Email/Password
+        
+        
+         
+   
+  
  
   
 
