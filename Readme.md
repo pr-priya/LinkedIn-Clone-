@@ -35,25 +35,28 @@ A mini LinkedIn-style social network where users can register, create a profile,
         Create a file named firebaseConfig.js in the src folder:
        // src/firebaseConfig.js
          const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_AUTH_DOMAIN",
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_STORAGE_BUCKET",
-            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-            appId: "YOUR_APP_ID"
+           apiKey: "YOUR_API_KEY",
+           authDomain: "YOUR_AUTH_DOMAIN",
+           projectId: "YOUR_PROJECT_ID",
+           storageBucket: "YOUR_STORAGE_BUCKET",
+           messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+           appId: "YOUR_APP_ID"
 };
-
 export default firebaseConfig;
-  5. Run the App
+   5. Run the App
      npm start
   6. Deploy with Firebase Hosting (Optional)
      npm install -g firebase-tools
      firebase login
      firebase init hosting
      firebase deploy
+     
   🧪 Demo Login (Optional)
     - Use Google Sign-In or register using Email/Password
 
+
+ 
+  
 
  
 
