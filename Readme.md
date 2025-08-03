@@ -9,7 +9,7 @@ A mini LinkedIn-style social network where users can register, create a profile,
 - **Authentication**: Firebase Authentication (Email & Google Login)
 - **Database**: Firebase Firestore
 - **Styling**: CSS
-- **Hosting**: Firebase Hosting
+- **Hosting**: Firebase Hosting.
 
  ## 📸 Features
 - ✅ Register/Login using **Email/Password** or **Google Authentication**
